@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Chat message styling - clean and readable */
+.chat-message {
+  line-height: 1.7;
+  color: #1f2937;
+}
+
+.chat-message h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dbeafe;
+}
+
+.chat-message h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.chat-message h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.chat-message p {
+  margin: 0.75rem 0;
+  color: #374151;
+  line-height: 1.7;
+}
+
+.chat-message ul, 
+.chat-message ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.chat-message ul {
+  list-style-type: disc;
+}
+
+.chat-message ol {
+  list-style-type: decimal;
+}
+
+.chat-message li {
+  margin: 0.5rem 0;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.chat-message code {
+  background-color: #eff6ff;
+  color: #1e40af;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-family: 'Courier New', monospace;
+  border: 1px solid #dbeafe;
+}
+
+.chat-message pre {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  border: 1px solid #374151;
+}
+
+.chat-message pre code {
+  background-color: transparent;
+  color: #f9fafb;
+  padding: 0;
+  border: none;
+  font-size: 0.875rem;
+}
+
+.chat-message strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.chat-message em {
+  font-style: italic;
+  color: #4b5563;
+}
+
+.chat-message blockquote {
+  border-left: 4px solid #93c5fd;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #4b5563;
+}
+
+.chat-message a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.chat-message a:hover {
+  color: #1d4ed8;
+}
+
+.chat-message table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.chat-message th {
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #111827;
+}
+
+.chat-message td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  color: #374151;
+}
+
