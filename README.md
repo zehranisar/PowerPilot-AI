@@ -61,6 +61,4 @@ requirements.txt
 README.md
 ```
 
-## Author
 
-Zehra Nisar
