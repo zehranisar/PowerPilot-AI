@@ -49,7 +49,7 @@ export default function Layout() {
           {/* Logo */}
           <div className="flex items-center gap-2 px-6 py-6 border-b">
             <Zap className="w-8 h-8 text-primary-600" />
-            <h1 className="text-xl font-bold text-gray-900">Energy Forecast</h1>
+            <h1 className="text-xl font-bold text-gray-900">Powerpilot AI</h1>
           </div>
 
           {/* Navigation */}

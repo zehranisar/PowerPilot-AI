@@ -111,7 +111,7 @@ export default function ForgotPassword() {
           {/* Logo */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <Zap className="w-10 h-10 text-primary-600" />
-            <h1 className="text-3xl font-bold text-gray-900">Energy Forecast</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Powerpilot AI</h1>
           </div>
 
           <div className="flex items-center gap-2 mb-6">

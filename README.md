@@ -1,64 +1,60 @@
-# Electricity Demand Forecasting
+# PowerPilot AI
 
-Electricity Demand Forecasting is a web-based application that uses machine learning techniques to predict future electricity consumption. The platform enables users to analyze electricity usage data, compare different prediction models, visualize results, and generate forecasts through an easy-to-use interface.
+PowerPilot AI is an intelligent electricity demand forecasting platform that leverages machine learning to predict electricity consumption accurately. The application features interactive dashboards, model comparison, data visualization, and an AI-powered assistant to help users analyze energy demand efficiently.
 
 ## Key Features
 
-* Secure user authentication
-* Electricity consumption forecasting
-* Multiple machine learning algorithms
-* Model performance comparison
-* Interactive dashboard and data visualization
-* CSV dataset upload support
-* AI-powered chat assistant
-* Prediction insights and analysis
+- Secure user authentication
+- Electricity demand forecasting
+- Multiple machine learning models
+- Model performance comparison
+- Interactive dashboard and visual analytics
+- CSV dataset upload
+- AI-powered chat assistant
+- Prediction insights and performance metrics
 
 ## Machine Learning Models
 
-* Linear Regression
-* Decision Tree
-* Random Forest
-* K-Nearest Neighbors (KNN)
+- Linear Regression
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
 
-## Technologies Used
+## Technology Stack
 
 ### Backend
-
-* FastAPI
-* PostgreSQL
-* SQLAlchemy
-* JWT Authentication
-* Scikit-learn
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- JWT Authentication
+- Scikit-learn
 
 ### Frontend
-
-* React
-* Vite
-* Tailwind CSS
-* Recharts
+- React
+- Vite
+- Tailwind CSS
+- Recharts
 
 ### AI Integration
-
-* Google Gemini API
+- Google Gemini API
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/zehranisar/Electricity-Demand-Forecasting.git
-cd Electricity-Demand-Forecasting
+git clone https://github.com/zehranisar/PowerPilot-AI.git
+cd PowerPilot-AI
 ```
 
-Install the required dependencies and run both the frontend and backend servers to start the application.
+Install the required dependencies, configure the environment variables, and start the backend and frontend servers.
 
 ## Project Structure
 
 ```text
-backend/
-frontend/
-ml/
-data.csv
-requirements.txt
-README.md
+PowerPilot-AI/
+├── backend/
+├── frontend/
+├── ml/
+├── data.csv
+├── requirements.txt
+└── README.md
 ```
-
-
