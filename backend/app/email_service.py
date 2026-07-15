@@ -26,16 +26,16 @@ def send_signup_otp_email(to_email: str, otp_code: str) -> bool:
         msg = MIMEMultipart()
         msg['From'] = EMAIL_ADDRESS
         msg['To'] = to_email
-        msg['Subject'] = "Email Verification Code - Energy Forecasting"
+        msg['Subject'] = "Email Verification Code - PowerPolit AI"
         
         # Email body
         body = f"""
         <html>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
             <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
-                <h2 style="color: #0284c7;">Welcome to Energy Forecasting!</h2>
+                <h2 style="color: #0284c7;">Welcome to !</h2>
                 <p>Hello,</p>
-                <p>Thank you for signing up for Energy Forecasting. To complete your registration, please verify your email address.</p>
+                <p>Thank you for signing up for PowerPolit AI. To complete your registration, please verify your email address.</p>
                 <p>Your verification code is:</p>
                 <div style="background-color: #f0f9ff; border: 2px solid #0284c7; border-radius: 8px; padding: 20px; text-align: center; margin: 20px 0;">
                     <h1 style="color: #0284c7; font-size: 32px; margin: 0; letter-spacing: 5px;">{otp_code}</h1>
@@ -70,7 +70,7 @@ def send_reset_email(to_email: str, reset_code: str) -> bool:
         msg = MIMEMultipart()
         msg['From'] = EMAIL_ADDRESS
         msg['To'] = to_email
-        msg['Subject'] = "Password Reset Code - Energy Forecasting"
+        msg['Subject'] = "Password Reset Code - PowerPolit"
         
         # Email body
         body = f"""

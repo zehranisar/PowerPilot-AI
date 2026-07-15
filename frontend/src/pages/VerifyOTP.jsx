@@ -144,7 +144,7 @@ export default function VerifyOTP() {
           {/* Logo */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <Zap className="w-10 h-10 text-primary-600" />
-            <h1 className="text-3xl font-bold text-gray-900">Energy Forecast</h1>
+            <h1 className="text-3xl font-bold text-gray-900">PowerPolit</h1>
           </div>
 
           <h2 className="text-2xl font-semibold text-gray-900 mb-2">Verify Your Email</h2>

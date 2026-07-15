@@ -60,11 +60,11 @@ export default function Signup() {
           {/* Logo */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <Zap className="w-10 h-10 text-primary-600" />
-            <h1 className="text-3xl font-bold text-gray-900">Energy Forecast</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Powerpilot AI</h1>
           </div>
 
           <h2 className="text-2xl font-semibold text-gray-900 mb-2">Create account</h2>
-          <p className="text-gray-600 mb-8">Sign up to get started with energy forecasting</p>
+          <p className="text-gray-600 mb-8">Sign up to get started with PowerPilot</p>
 
           {success && (
             <div className="mb-6 p-4 bg-green-50 border-2 border-green-200 rounded-lg shadow-sm">
