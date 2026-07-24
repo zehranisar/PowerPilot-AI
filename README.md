@@ -98,97 +98,51 @@ PowerPilot AI evaluates multiple regression algorithms to identify the best-perf
 # 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
+graph TD
 
-A["👤 User"]
+User[User]
+Frontend[React + Vite Frontend]
+Backend[FastAPI Backend]
+Database[(PostgreSQL Database)]
+ML[Machine Learning Models]
+Gemini[Google Gemini API]
+Prediction[Electricity Demand Prediction]
+Dashboard[Dashboard & Analytics]
 
-B["💻 React + Vite Frontend"]
-
-C["⚙️ FastAPI Backend"]
-
-D["🗄️ PostgreSQL Database"]
-
-E["🧠 Machine Learning Engine"]
-
-F["🤖 Google Gemini AI"]
-
-G["📊 Dashboard & Analytics"]
-
-H["⚡ Electricity Demand Prediction"]
-
-
-A --> B
-
-B --> C
-
-C --> D
-
-C --> E
-
-C --> F
-
-E --> H
-
-H --> G
-
-F --> G
-
-G --> A
+User --> Frontend
+Frontend --> Backend
+Backend --> Database
+Backend --> ML
+Backend --> Gemini
+ML --> Prediction
+Gemini --> Prediction
+Prediction --> Dashboard
+Dashboard --> User
 ```
-
----
-
-## 🔄 Application Workflow
+# 🔄 Application Workflow
 
 ```mermaid
-flowchart TD
+graph TD
 
-A["📁 Upload Dataset"]
-
-B["🧹 Data Preprocessing"]
-
-C["🤖 Machine Learning Model"]
-
-D["⚡ Demand Prediction"]
-
-E["📊 Model Evaluation"]
-
-F["📈 Interactive Dashboard"]
-
-G["💬 AI Assistant"]
-
-H["👤 User Insights"]
-
+A[Upload Dataset]
+B[Data Preprocessing]
+C[Train ML Models]
+D[Generate Prediction]
+E[Evaluate Performance]
+F[Dashboard Visualization]
+G[AI Assistant]
+H[User Insights]
 
 A --> B
-
 B --> C
-
 C --> D
-
 D --> E
-
 E --> F
-
 F --> G
-
 G --> H
 ```
 
----
-# 📷 Screenshots
 
-> Replace these placeholders with actual screenshots after deployment.
-
-| Home | Dashboard |
-|------|-----------|
-| ![](assets/home.png) | ![](assets/dashboard.png) |
-
-| Prediction | AI Assistant |
-|------------|--------------|
-| ![](assets/prediction.png) | ![](assets/chat.png) |
-
----
 # 📚 API Documentation
 
 PowerPilot AI uses **FastAPI**, providing automatically generated interactive API documentation.
