@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/banner/banner.png" alt="PowerPilot AI Banner" width="100%">
+</p>
+
+
 # ⚡ PowerPilot AI
 
 > **An AI-powered electricity demand forecasting platform that combines Machine Learning, interactive analytics, and intelligent assistance to help users predict and understand electricity consumption with confidence.**
